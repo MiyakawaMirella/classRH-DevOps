@@ -21,7 +21,11 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Compilando os arquivos java
+    - name: Compilando os arquivos java main
+      run: |
+        cd src
+        javac -cp . Main.java
+    - name: Compilando os arquivos java - Teste unitário
       run: |
         cd src
         javac -cp . Teste.java
