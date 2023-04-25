@@ -3,7 +3,7 @@ import java.util.Date;
 
 public class Teste {
 
-    public static void testeUnitario(String[] args) {
+    public static void main (String[] args) {
         ArrayList<String> funcionariosA = new ArrayList<String>();
         funcionariosA.add("Ana Clara Zampier");
         funcionariosA.add("23456754");
