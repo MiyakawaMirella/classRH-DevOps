@@ -60,4 +60,15 @@ public class RH {
         this.agendamento = agendamento;
         this.período = período;
     }
+
+    public String toString() {
+        return "RH{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", nascimento=" + nascimento +
+                ", agendamento=" + agendamento +
+                ", período='" + período + '\'' +
+                '}';
+    }
 }
